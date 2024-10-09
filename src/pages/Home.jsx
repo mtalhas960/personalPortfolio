@@ -25,11 +25,11 @@ const Home = () => {
       <section id="skills">
         <Skills />
       </section>
-      {/* <section id="projects">
+      <section id="projects">
         <Suspense fallback={<div>Loading Projects...</div>}>
           <Projects />
         </Suspense>
-      </section> */}
+      </section>
       <section id="education">
         <Education />
       </section>

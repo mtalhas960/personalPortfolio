@@ -10,7 +10,7 @@ const ProjectsCard = ({ imageSrc, title, description, link, skills, duration, as
       </div>
       <div className="border-1 p-lg-4 p-3">
         <figure className="mb-4">
-          <img src={imageSrc} alt="Project Title" className="img-fluid rounded" />
+          <img src={imageSrc} alt="Project Title" className="w-100 rounded" />
         </figure>
         <code className="d-flex flex-column gap-2">
           <div className="d-flex gap-1">
